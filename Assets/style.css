@@ -18,7 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: var(--header-bg);
+    background: var(--accent-color);
     color: var(--header-text);
 }
 
@@ -215,6 +215,7 @@ border: 5px solid var(--header-bg);
     transition: all 0.5s;
     transform: scale(1.05,1.05);
     background-size: 60%;
+
     padding: 0%;
 }
 
