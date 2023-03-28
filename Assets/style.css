@@ -162,7 +162,7 @@ main nav ul li {
     width: 1600px; */
     width: 100%;
     height: auto;
-    border: 10px solid var(--accent-color);
+    border: 5px solid var(--header-bg);
 }
 
 #main-image-caption{
@@ -190,7 +190,7 @@ main nav ul li {
  width: 800px; */
  width: 100%;
  height: auto;
-border: 10px solid var(--accent-color);
+border: 5px solid var(--header-bg);
 } 
 
 .small-image-caption{
@@ -208,7 +208,6 @@ border: 10px solid var(--accent-color);
     transition: all 0.5s;
     transform: scale(1.05,1.05);
     background-size: 60%;
-    border: 10px solid var(--header-bg);
     padding: 0%;
 }
 
@@ -216,7 +215,6 @@ border: 10px solid var(--accent-color);
     transition: all 0.5s;
     transform: scale(1.05,1.05);
     background-size: 60%;
-    border: 10px solid var(--header-bg);
     padding: 0%;
 }
 
