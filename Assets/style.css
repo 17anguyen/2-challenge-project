@@ -59,6 +59,16 @@ header nav ul li {
     margin-left: 25px;
 }
 
+main {
+    background: var(--body-bg);
+    padding-right: 200px;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    color: var(--body-text);
+}
 .hero {
     height: 300px;
     width: 100%;
@@ -66,178 +76,6 @@ header nav ul li {
     background-image: url("../Assets/L1008447.jpg");
     background-attachment: fixed;
     background-size: cover;
-}
-
-section {
-    background: var(--body-bg);
-    display: inline-block;
-    flex-wrap: wrap;
-    margin: 5px;
-}
-
-
-.parent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-
-.parent h2 {
-    font-size: 40px;
-    color: var(--accent-color);
-    text-align: end;
-}
-
-.aside-child {
-    flex: 0 0 20%;
-    color: var(--alt-color);
-    padding: 20px;
-    border-right: 5px solid var(--accent-color);
-}
-
-.body-child {
-    flex: 0 0 80%;
-    color: var(--body-text);
-    padding: 20px;
-  }
-    
-section p {
-    flex: 0 0 80%;
-    padding: 20px;
-    color: var(--body-text);
-}
-
-.imagebox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-.image-large {
-    flex-basis: 100%;
-    background-image: url(./L1008438.jpg);
-    background-position: center;
-    height: 45vh;
-    min-height: 300px;
-    width: 90%;
-  }
-
-.image-large-caption {
-    position: relative;
-    display: inline-block;
-    align-items: center;
-}
-
-.image-large:hover {
-    border: #abbb9c solid px;
-    padding: 0%;
-    transition: all 0.3s;
-    transform: scale(1.0,1.0);
-  
-}
-.image-small {
-    flex-basis: 50%;
-    position: relative;
-    padding: 10px;
-    background-image: url(../Assets/L1008429.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 40%;
-    min-height: 200px;
-    height: 30vh;
-  }
-
-.caption {
-    position: absolute;
-    top: 75px;
-    right: 0;
-    left: 0;
-    bottom: 70px;
-    width: 100%;
-    font-size: xx-large;
-    height: 27%;
-    opacity: 0;
-    background: var(--body-text);  
-    transition: opacity 1s ease-in-out; 
-    color: var(--header-bg);
-}
-
-
- /* article {
-    background: var(--body-bg);
-    flex-direction: column;
-    display: inline-block;
-    margin: 5px;
-}
-
-article h2 {
-    position: relative;
-    flex-direction: column;
-    display: inline-block;
-    width: 15%;
-    text-align: right;
-    color: var(--accent-color);
-    font-size: 55px;
-    padding: 5px;
-    border-right: 5px solid var(--accent-color);
-} */ 
-
-.box {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 2% 5%;
-    width: 100%;
-}
-
-.cards {
-    background-image: url(../Assets/L1008429.jpg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 10px 0;
-
-    width: 40%;
-    min-height: 200px;
-    height: 30vh;
-    flex-basis: 50%;
-    padding: 10px;
-    TODO edit the padding between images 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-
-    line-height: 1;
-    transition: all 1s;
-} 
-.cards#large {
-    background-image: url(../Assets/L1008438.jpg);
-    background-position: relative;
-    flex-basis: 100%;
-    height: 45vh;
-    min-height: 300px;
-    width: 90%;
-}
-
-.cards section {
-    background-color: var(--header-bg);
-    bottom: 20px;
-    color: var(--body-bg);
-    line-height: 1.1;
-
-    margin: 0 auto 0 0;
-    padding: 2px 25px 5px 5px;
-    position: relative;
-}
-
-.cards h3{
-    font-size: ;
-    color: var(--body-bg);
-    font-style: none;
 }
 
 
@@ -272,6 +110,137 @@ main nav ul {
 }
 
 main nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.parent h2 {
+    font-size: 60px;
+    color: var(--accent-color);
+    text-align: end;
+}
+
+.aside-titles {
+    flex: 0 0 15%;
+    color: va(--accent-color);
+    padding: 20px;
+    border-right: 5px solid var(--accent-color);
+}
+
+.body-content {
+    flex: 0 0 80%;
+    color: var(--body-text);
+    padding: 20px;
+    display: flex;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main-image {
+    flex-basis: 100%;
+    position: relative;
+    padding: 10px;
+}
+
+#main-image img{
+    width: 100%;
+    border: 10px solid var(--accent-color);
+}
+
+#main-image-caption{
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+    color: var(--header-text);
+    background-color: var(--accent-color);
+    padding: 10px;
+    margin: 0;
+    font-size: 60px;
+}
+
+#small {
+    flex-basis: 50%;
+    position: relative;
+    padding: 10px;
+    }
+
+#small img{
+  width: 100%;
+  height: auto;
+  border: 10px solid var(--accent-color);
+} 
+
+#small-image-caption{
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+    color: var(--header-text);
+    background-color: var(--accent-color);
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+}
+
+#main-image:hover {
+    transition: all 0.5s;
+    transform: scale(1.05,1.05);
+    background-size: 60%;
+    border: 10px solid var(--header-bg);
+    padding: 0%;
+}
+
+#small:hover {
+    transition: all 0.5s;
+    transform: scale(1.05,1.05);
+    background-size: 60%;
+    border: 10px solid var(--header-bg);
+    padding: 0%;
+}
+
+.body-content nav {
+    color: var(--body-text);
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    width: 80%;
+    color: var(--body-text);
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px, 50px,10px,50px;
+}
+
+.body-content nav a {
+    color: var(--body-text);
+}
+
+.body-content nav a:focus {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.body-content nav a:hover {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+.body-content nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.body-content nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
