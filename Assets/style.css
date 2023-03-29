@@ -12,9 +12,29 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* profile picture formatting */
+figure {
+    position: relative;
+    display: flex;
+    align-items: start;
+}
+.profile-pic {
+    align-items: end;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-pic img{
+    width: 100%;
+    margin-top: -25px;
+}
+
 /* header position and text settings */
 .header {
-    position: sticky;
+    align-items: center;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -22,16 +42,15 @@
     color: var(--header-text);
 }
 
-
 .header h1 {
-    margin: 10px;
     font-size: 48px;
+    position: absolute;
+    left: 100px;
 }
 
 
 /* header nav styling */
 .header nav {
-    display: flex;
     margin-right: 5px;
     margin-top: 20px;
     font-size: 150%;
