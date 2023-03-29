@@ -2,6 +2,11 @@
 
 https://17anguyen.github.io/challengeproject2/
 
+code source: 
+peer help -DJ 
+TA assistance- Henry and Morgan
+reference site https://ckmobile.medium.com/css-overflow-to-create-circular-profile-pictures-bdd245437c8e
+
 # 02 Advanced CSS: Portfolio
 
 ## Your Task
