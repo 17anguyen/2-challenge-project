@@ -1,3 +1,7 @@
+![image](https://user-images.githubusercontent.com/43556891/228398887-d8a8123f-ccdc-418f-a4fd-8b04b076f595.png)
+
+https://17anguyen.github.io/challengeproject2/
+
 # 02 Advanced CSS: Portfolio
 
 ## Your Task
