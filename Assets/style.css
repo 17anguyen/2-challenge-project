@@ -235,3 +235,19 @@ border: 5px solid var(--header-bg);
     display: inline-block;
     margin-left: 25px;
 }
+
+@media (max-width: 1200px) {
+    main {
+      padding-right: 120px;
+    }
+  }
+  @media (max-width: 950px) {
+    main {
+      padding-right: 80px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    main {
+      padding-right: 0;
+    }
